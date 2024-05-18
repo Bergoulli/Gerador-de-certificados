@@ -21,7 +21,7 @@ def enviar_email():
         # Cria a mensagem MIMEMultipart
         msg = MIMEMultipart()
         msg['From'] = from_email
-        msg['To'] = email1[i]
+        msg['To'] = email1
         msg['Subject'] = subject
 
         # Anexa o corpo do email
