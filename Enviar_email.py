@@ -46,7 +46,7 @@ def enviar_email():
         s.login(from_email, password)
         s.sendmail(from_email, email1, msg.as_string())
         s.quit()
-        print('Email enviado para', email1[i])
+        print('Email enviado para', email1)
         i = i+1
 
 enviar_email()
